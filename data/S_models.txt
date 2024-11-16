@@ -1,0 +1,32 @@
+Table. Maximum Likelihood fits of 24 different nucleotide substitution models
+Model	Parameters	BIC	AICc	lnL	(+I)	(+G)	R	f(A)	f(T)	f(C)	f(G)	r(AT)	r(AC)	r(AG)	r(TA)	r(TC)	r(TG)	r(CA)	r(CT)	r(CG)	r(GA)	r(GT)	r(GC)
+GTR+G+I	43	66531.058	66153.078	-33033.500	0.06	2.16	1.17	0.279	0.353	0.178	0.190	0.071	0.056	0.101	0.056	0.101	0.027	0.088	0.199	0.052	0.149	0.050	0.049
+GTR+G	42	66563.320	66194.128	-33055.027	n/a	1.39	1.20	0.279	0.353	0.178	0.190	0.069	0.057	0.101	0.055	0.103	0.026	0.090	0.203	0.052	0.149	0.048	0.049
+HKY+G+I	39	66594.892	66252.066	-33087.001	0.06	2.38	1.16	0.279	0.353	0.178	0.190	0.078	0.040	0.105	0.062	0.099	0.042	0.062	0.196	0.042	0.155	0.078	0.040
+TN93+G+I	40	66605.445	66253.831	-33086.882	0.06	2.38	1.16	0.279	0.353	0.178	0.190	0.078	0.040	0.104	0.062	0.100	0.042	0.062	0.198	0.042	0.153	0.078	0.040
+T92+G+I	37	66617.443	66292.195	-33109.069	0.07	2.48	1.15	0.316	0.316	0.184	0.184	0.071	0.041	0.102	0.071	0.102	0.041	0.071	0.175	0.041	0.175	0.071	0.041
+HKY+G	38	66640.273	66306.236	-33115.088	n/a	1.42	1.19	0.279	0.353	0.178	0.190	0.077	0.039	0.106	0.061	0.100	0.042	0.061	0.198	0.042	0.157	0.077	0.039
+TN93+G	39	66650.433	66307.607	-33114.771	n/a	1.42	1.20	0.279	0.353	0.178	0.190	0.077	0.039	0.104	0.061	0.102	0.042	0.061	0.202	0.042	0.154	0.077	0.039
+T92+G	36	66668.826	66352.367	-33140.156	n/a	1.44	1.18	0.316	0.316	0.184	0.184	0.070	0.041	0.103	0.070	0.103	0.041	0.070	0.177	0.041	0.177	0.070	0.041
+GTR+I	42	66920.492	66551.300	-33233.613	0.10	n/a	1.02	0.279	0.353	0.178	0.190	0.083	0.053	0.098	0.066	0.093	0.034	0.083	0.184	0.050	0.145	0.064	0.047
+HKY+I	38	66942.221	66608.184	-33266.061	0.10	n/a	1.02	0.279	0.353	0.178	0.190	0.084	0.043	0.099	0.067	0.093	0.045	0.067	0.185	0.045	0.146	0.084	0.043
+T92+I	36	66948.726	66632.267	-33280.106	0.10	n/a	1.02	0.316	0.316	0.184	0.184	0.075	0.044	0.096	0.075	0.096	0.044	0.075	0.165	0.044	0.165	0.075	0.044
+TN93+I	39	66952.898	66610.072	-33266.004	0.10	n/a	1.02	0.279	0.353	0.178	0.190	0.084	0.043	0.098	0.067	0.094	0.045	0.067	0.186	0.045	0.145	0.084	0.043
+K2+G+I	36	67404.101	67087.641	-33507.793	0.07	2.80	1.21	0.250	0.250	0.250	0.250	0.057	0.057	0.137	0.057	0.137	0.057	0.057	0.137	0.057	0.137	0.057	0.057
+K2+G	35	67450.632	67142.962	-33536.455	n/a	1.61	1.16	0.250	0.250	0.250	0.250	0.058	0.058	0.134	0.058	0.134	0.058	0.058	0.134	0.058	0.134	0.058	0.058
+K2+I	35	67634.504	67326.834	-33628.391	0.10	n/a	1.08	0.250	0.250	0.250	0.250	0.060	0.060	0.130	0.060	0.130	0.060	0.060	0.130	0.060	0.130	0.060	0.060
+GTR	41	67652.111	67291.707	-33604.818	n/a	n/a	0.97	0.279	0.353	0.178	0.190	0.085	0.056	0.094	0.067	0.093	0.034	0.088	0.183	0.051	0.138	0.063	0.048
+HKY	37	67706.218	67380.970	-33653.456	n/a	n/a	0.98	0.279	0.353	0.178	0.190	0.086	0.044	0.097	0.068	0.091	0.046	0.068	0.181	0.046	0.143	0.086	0.044
+TN93	38	67715.108	67381.070	-33652.505	n/a	n/a	0.98	0.279	0.353	0.178	0.190	0.086	0.044	0.094	0.068	0.094	0.046	0.068	0.185	0.046	0.139	0.086	0.044
+T92	35	67727.944	67420.274	-33675.111	n/a	n/a	0.97	0.316	0.316	0.184	0.184	0.077	0.045	0.094	0.077	0.094	0.045	0.077	0.161	0.045	0.161	0.077	0.045
+JC+G+I	35	67886.333	67578.663	-33754.305	0.07	3.61	0.50	0.250	0.250	0.250	0.250	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083
+JC+G	34	67964.752	67665.871	-33798.911	n/a	1.84	0.50	0.250	0.250	0.250	0.250	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083
+JC+I	34	68083.377	67784.496	-33858.223	0.10	n/a	0.50	0.250	0.250	0.250	0.250	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083
+K2	34	68366.988	68068.107	-34000.029	n/a	n/a	1.05	0.250	0.250	0.250	0.250	0.061	0.061	0.128	0.061	0.128	0.061	0.061	0.128	0.061	0.128	0.061	0.061
+JC	33	68792.569	68502.477	-34218.215	n/a	n/a	0.50	0.250	0.250	0.250	0.250	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083
+NOTE.-- Models with the lowest BIC scores (Bayesian Information Criterion) are considered to describe the substitution pattern the best. For each model, AICc value (Akaike Information Criterion, corrected), Maximum Likelihood value (lnL), and the number of parameters (including branch lengths) are also presented [1]. Non-uniformity of evolutionary rates among sites may be modeled by using a discrete Gamma distribution (+G) with 5 rate categories and by assuming that a certain fraction of sites are evolutionarily invariable (+I). Whenever applicable, estimates of gamma shape parameter and/or the estimated fraction of invariant sites are shown.Assumed or estimated values of transition/transversion bias (R) are shown for each model, as well. They are followed by nucleotide frequencies (f) and rates of base substitutions (r) for each nucleotide pair.Relative values of instantaneous r should be considered when evaluating them. For simplicity, sum of r values is made equal to 1 for each model. For estimating ML values, a tree topology was automatically computed. This analysis involved 18 nucleotide sequences. Codon positions included were 1st+2nd+3rd+Noncoding. There were a total of 2806 positions in the final dataset. Evolutionary analyses were conducted in MEGA11 [2] 
+
+Abbreviations: TR: General Time Reversible; HKY: Hasegawa-Kishino-Yano; TN93: Tamura-Nei; T92: Tamura 3-parameter; K2: Kimura 2-parameter; JC: Jukes-Cantor./div> 
+1. Nei M. and Kumar S. (2000). Molecular Evolution and Phylogenetics. Oxford University Press, New York.
+2. Tamura K., Stecher G., and Kumar S. (2021). MEGA 11: Molecular Evolutionary Genetics Analysis Version 11. Molecular Biology and Evolution https://doi.org/10.1093/molbev/msab120.
+Disclaimer: Although utmost care has been taken to ensure the correctness of the caption, the caption text is provided "as is" without any warranty of any kind. Authors advise the user to carefully check the caption prior to its use for any purpose and report any errors or problems to the authors immediately (www.megasoftware.net). In no event shall the authors and their employers be liable for any damages, including but not limited to special, consequential, or other damages. Authors specifically disclaim all other warranties expressed or implied, including but not limited to the determination of suitability of this caption text for a specific purpose, use, or application.
