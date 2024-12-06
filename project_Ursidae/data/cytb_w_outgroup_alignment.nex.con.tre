@@ -1,0 +1,30 @@
+#NEXUS
+[ID: 1775126437]
+begin taxa;
+	dimensions ntax=9;
+	taxlabels
+		Helarctos_malayanus_cytb
+		Melursus_ursinus_cytb
+		Tremarctos_ornatus_cytb
+		Ursus_thibetanus_cytb
+		Ursus_americanus_cytb
+		Ursus_arctos_cytb
+		Ailuropoda_melanoleuca_cytb
+		Ursus_maritimus_cytb
+		Panthera_pardus_cytb
+		;
+end;
+begin trees;
+	translate
+		1	Helarctos_malayanus_cytb,
+		2	Melursus_ursinus_cytb,
+		3	Tremarctos_ornatus_cytb,
+		4	Ursus_thibetanus_cytb,
+		5	Ursus_americanus_cytb,
+		6	Ursus_arctos_cytb,
+		7	Ailuropoda_melanoleuca_cytb,
+		8	Ursus_maritimus_cytb,
+		9	Panthera_pardus_cytb
+		;
+   tree con_50_majrule = [&U] (1[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:5.872027e-02[&length_mean=5.86854490e-02,length_median=5.87202700e-02,length_95%HPD={3.81705300e-02,8.19827500e-02}],(4[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:5.159334e-02[&length_mean=5.20086419e-02,length_median=5.15933400e-02,length_95%HPD={3.24545700e-02,7.48671400e-02}],5[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:6.241977e-02[&length_mean=6.15655071e-02,length_median=6.24197700e-02,length_95%HPD={3.48511100e-02,9.51396000e-02}])[&prob=9.09708350e-01,prob_stddev=8.28677544e-03,prob_range={9.03848715e-01,9.15567985e-01},prob(percent)="91",prob+-sd="91+-1"]:2.777290e-02[&length_mean=2.83608899e-02,length_median=2.77729000e-02,length_95%HPD={1.12858400e-02,4.61582300e-02}],(2[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:5.170162e-02[&length_mean=5.17640529e-02,length_median=5.17016200e-02,length_95%HPD={2.65105700e-02,7.54244400e-02}],(3[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:1.680154e-01[&length_mean=1.70028590e-01,length_median=1.68015400e-01,length_95%HPD={1.16469500e-01,2.29969800e-01}],(7[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:1.395674e-01[&length_mean=1.41057506e-01,length_median=1.39567400e-01,length_95%HPD={5.07356800e-02,2.32335700e-01}],9[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:1.186316e+00[&length_mean=1.20365422e+00,length_median=1.18631600e+00,length_95%HPD={7.40902300e-01,1.71104900e+00}])[&prob=7.55559995e-01,prob_stddev=1.04526372e-02,prob_range={7.48168864e-01,7.62951125e-01},prob(percent)="76",prob+-sd="76+-1"]:7.178792e-02[&length_mean=7.49823011e-02,length_median=7.17879200e-02,length_95%HPD={4.74380800e-03,1.45807600e-01}])[&prob=8.61699294e-01,prob_stddev=1.42193533e-02,prob_range={8.51644693e-01,8.71753895e-01},prob(percent)="86",prob+-sd="86+-1"]:4.850583e-02[&length_mean=4.99131688e-02,length_median=4.85058300e-02,length_95%HPD={1.59605000e-02,8.61826500e-02}],(6[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:4.157775e-03[&length_mean=4.56687289e-03,length_median=4.15777500e-03,length_95%HPD={1.46163700e-04,9.58906500e-03}],8[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:8.055793e-03[&length_mean=8.38239086e-03,length_median=8.05579300e-03,length_95%HPD={2.68737400e-03,1.47767600e-02}])[&prob=9.99866826e-01,prob_stddev=1.88335805e-04,prob_range={9.99733653e-01,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:3.912635e-02[&length_mean=3.88342402e-02,length_median=3.91263500e-02,length_95%HPD={1.61942800e-02,5.96574700e-02}])[&prob=8.07963777e-01,prob_stddev=1.01701335e-02,prob_range={8.00772406e-01,8.15155147e-01},prob(percent)="81",prob+-sd="81+-1"]:1.155078e-02[&length_mean=1.22810539e-02,length_median=1.15507800e-02,length_95%HPD={1.67117200e-03,2.44242200e-02}]);
+end;
