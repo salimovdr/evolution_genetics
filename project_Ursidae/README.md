@@ -43,8 +43,11 @@
 
 ### **Филогенетическое дерево для гена CYTB**
 - **Метод ML:**
+  
   ![CYTB ML Tree](pictures/cytb_ML_tree.png)
+  
 - **Метод BI:**
+  
   ![CYTB BI Tree](pictures/cytb_byes_tree.png)
 
 - **Параметры и интерпретация:**
@@ -57,8 +60,11 @@
 
 ### **Филогенетическое дерево для гена IRBP**
 - **Метод ML:**
+  
   ![IRBP ML Tree](pictures/irbp_ML_tree.png)
+  
 - **Метод BI:**
+  
   ![IRBP BI Tree](pictures/irbp_byes_tree.png)
 
 - **Параметры и интерпретация:**
